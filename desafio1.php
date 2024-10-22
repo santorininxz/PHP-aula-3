@@ -18,11 +18,11 @@
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $v1 = $_POST['valor1'];
-        $v2 = $_POST['valor2'];
+        $sv1 = $_POST['valor1'];
+        $sv2 = $_POST['valor2'];
         $sv3 = $_POST['valor3'];
 
-        $soma = $valor1 + $valor2 + $valor3;
+        $soma = $sv1 + $sv2 + $sv3;
         echo "<p>A soma dos valores é: $sv1 + $sv2 + $sv3 = $soma <br</p>";
     }
     ?>
